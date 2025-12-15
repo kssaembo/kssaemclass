@@ -1,0 +1,76 @@
+import { 
+  Layers, 
+  Volume2, 
+  Smartphone, 
+  Landmark, 
+  Wrench, 
+  Terminal, 
+  Activity 
+} from 'lucide-react';
+import { ServiceItem } from './types';
+
+export const SERVICES: ServiceItem[] = [
+  {
+    id: 'game',
+    title: '글겹게임',
+    subtitle: '겹쳐진 글자 속에 숨겨진 정답을 찾아라',
+    description: '겹쳐진 글자를 하나씩 펼쳐가며 교사가 직접 만든 문제를 해결하는 집중력과 사고력을 자극하는 학습형 게임입니다. 퀴즈, 어휘 학습, 추리 활동까지 수업에 바로 활용할 수 있습니다.',
+    catchphrase: '👉 놀이처럼 시작해서 학습으로 끝나는 수업용 게임',
+    url: 'https://ochre-nine.vercel.app/',
+    icon: Layers,
+  },
+  {
+    id: 'sound',
+    title: '빅 사운드 (Big Sound)',
+    subtitle: '“소리가 더 컸으면…”이라는 순간을 해결해주는 도구',
+    description: '태블릿이나 PC에서 음량이 부족할 때, 기본 한계를 넘어 더 크게 출력할 수 있도록 도와주는 서비스입니다. 체육 수업, 행사 진행, 영상 시청 시 유용하게 활용할 수 있습니다.',
+    catchphrase: '👉 학교 현장에서 진짜 필요한 ‘볼륨 해결사’',
+    url: 'https://bigsound-sigma.vercel.app/',
+    icon: Volume2,
+  },
+  {
+    id: 'pwa',
+    title: 'PWA Builder',
+    subtitle: '내 웹 서비스를 앱처럼 만들어주는 가장 쉬운 방법',
+    description: '복잡한 개발 과정 없이 내가 만든 웹 서비스를 간단하게 PWA 앱으로 변환할 수 있습니다. 설치형 앱처럼 홈 화면에 추가하여 활용 가능합니다.',
+    catchphrase: '👉 교사를 위한 가장 간단한 PWA 제작 도구',
+    url: 'https://pwabuilder-liard.vercel.app/',
+    icon: Smartphone,
+  },
+  {
+    id: 'bank',
+    title: '클래스뱅크',
+    subtitle: '학급 안에서 직접 경험하는 금융·경제 실험실',
+    description: '주식, 펀드, 적금은 물론 학생 간 송금, QR 결제까지 가능한 학급 금융경제 웹 서비스입니다. 교실 속에서 ‘경제가 돌아가는 경험’을 직접 만들어줍니다.',
+    catchphrase: '👉 이론이 아닌, 경험으로 배우는 금융 수업',
+    url: 'https://economy-rho.vercel.app/',
+    icon: Landmark,
+  },
+  {
+    id: 'facility',
+    title: '시설 안전점검 및 보수요청',
+    subtitle: '학교 시설 관리, 이제 종이와 전화 말고 웹으로',
+    description: '학교 시설 보수 요청을 웹에서 간단하게 접수하고 진행 상황까지 한눈에 관리할 수 있는 서비스입니다. 현장의 번거로움을 줄이고 소통을 명확하게 만들어줍니다.',
+    catchphrase: '👉 학교 행정을 가볍게 만드는 실무형 서비스',
+    url: 'https://facilitymanagemet.vercel.app/',
+    icon: Wrench,
+  },
+  {
+    id: 'hacking',
+    title: '가짜 해킹 사이트',
+    subtitle: '영화 속 해킹 장면을 현실로',
+    description: '졸업 영상 촬영을 위해 제작한 연출용 가짜 해킹 사이트입니다. 타이핑, 코드 흐름, 긴장감 있는 화면으로 마치 실제 해킹을 하는 듯한 분위기를 연출할 수 있습니다.',
+    catchphrase: '👉 영상·행사 연출을 위한 몰입형 콘셉트 사이트',
+    url: 'https://youware.app/project/uv0dxka2h4?enter_from=share&screen_status=2',
+    icon: Terminal,
+  },
+  {
+    id: 'pe',
+    title: '권쌤과 체육 포털',
+    subtitle: '체육 수업을 더 똑똑하고 재미있게',
+    description: '배드민턴 경기 기록 시스템, 체육관 예약 및 체크인, 표현 활동 의견 나눔 서비스까지 체육 수업을 풍부하게 만들어주는 도구들을 한 곳에 모았습니다.',
+    catchphrase: '👉 기록·운영·참여가 살아나는 체육 수업 플랫폼',
+    url: 'https://youware.app/project/9pse9k75ey?enter_from=share&screen_status=2',
+    icon: Activity,
+  },
+];
