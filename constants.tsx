@@ -1,3 +1,4 @@
+
 import { 
   Layers, 
   Volume2, 
@@ -5,7 +6,8 @@ import {
   Landmark, 
   Wrench, 
   Terminal, 
-  Activity 
+  Activity,
+  Trophy // 새로운 아이콘 추가
 } from 'lucide-react';
 import { ServiceItem } from './types';
 
@@ -59,7 +61,7 @@ export const SERVICES: ServiceItem[] = [
     id: 'hacking',
     title: '가짜 해킹 사이트',
     subtitle: '영화 속 해킹 장면을 현실로',
-    description: '졸업 영상 촬영을 위해 제작한 연출용 가짜 해킹 사이트입니다. 타이핑, 코드 흐름, 긴장감 있는 화면으로 마치 실제 해킹을 하는 듯한 분위기를 연출할 수 있습니다.',
+    description: '졸업 영상 촬영을 위해 제작한 연출용 가짜 해킹 사이트입니다. 타이핑, 코드 흐름, 긴장감 있는 화면으로 마치 실제 해킹을 하는 듯한 분위기를 연출할 수 있습니다. world, danger 등의 키워드를 쳐보세요.',
     catchphrase: '👉 영상·행사 연출을 위한 몰입형 콘셉트 사이트',
     url: 'https://youware.app/project/uv0dxka2h4?enter_from=share&screen_status=2',
     icon: Terminal,
@@ -73,4 +75,13 @@ export const SERVICES: ServiceItem[] = [
     url: 'https://youware.app/project/9pse9k75ey?enter_from=share&screen_status=2',
     icon: Activity,
   },
+  {
+    id: 'kickball',
+    title: '발야구 점수판',
+    subtitle: '즐거운 발야구 손쉽게 카운팅하세요!',
+    description: '발야구 하다보면 아웃, 스트라이크, 볼 카운트를 놓치는 경우가 많습니다. 선생님과 학생 모두 실시간으로 쉽고 간단하게 카운트와 점수를 확인/관리하는 도구입니다.',
+    catchphrase: '👉 정확한 카운팅을 더 손쉽게 도와주는 서비스',
+    url: 'https://kickball-swart.vercel.app/',
+    icon: Trophy, // 아이콘을 Trophy로 변경
+  }
 ];

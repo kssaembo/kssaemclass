@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Code2 } from 'lucide-react';
+import { Heart, Code2, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -20,13 +20,20 @@ const Footer: React.FC = () => {
             </p>
           </div>
 
-          <div className="mt-6 flex items-center gap-2 text-xl text-slate-700 dark:text-slate-500 transition-colors">
-            <span>Designed & Built with</span>
-            <Heart className="w-6 h-6 text-red-500 fill-red-500/20" />
-            <span>by KwonSsam</span>
+          <div className="mt-8 pt-6 border-t border-slate-400/20 dark:border-slate-800 w-full max-w-xs mx-auto">
+            <p className="text-slate-700 dark:text-slate-400 text-sm mb-2">
+              제안이나 문의사항이 있으시면 언제든 메일 주세요.
+            </p>
+            <a 
+              href="mailto:sinjoppo@naver.com" 
+              className="inline-flex items-center gap-2 text-sky-700 dark:text-lab-accent font-semibold hover:underline group transition-all"
+            >
+              <Mail className="w-4 h-4" />
+              <span>Contact: sinjoppo@naver.com</span>
+            </a>
           </div>
           
-          <p className="text-lg text-slate-600 dark:text-slate-600 mt-2 transition-colors">
+          <p className="text-sm text-slate-600 dark:text-slate-600 mt-8 transition-colors">
             ⓒ 2025. Kwon's class. All rights reserved.
           </p>
         </div>
