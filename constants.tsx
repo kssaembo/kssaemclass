@@ -1,4 +1,3 @@
-
 import { 
   Layers, 
   Volume2, 
@@ -7,7 +6,8 @@ import {
   Wrench, 
   Terminal, 
   Activity,
-  Trophy // 새로운 아이콘 추가
+  Trophy,
+  FileArchive // 용량 줄이기에 적합한 아이콘 추가
 } from 'lucide-react';
 import { ServiceItem } from './types';
 
@@ -82,6 +82,15 @@ export const SERVICES: ServiceItem[] = [
     description: '발야구 하다보면 아웃, 스트라이크, 볼 카운트를 놓치는 경우가 많습니다. 선생님과 학생 모두 실시간으로 쉽고 간단하게 카운트와 점수를 확인/관리하는 도구입니다.',
     catchphrase: '👉 정확한 카운팅을 더 손쉽게 도와주는 서비스',
     url: 'https://kickball-swart.vercel.app/',
-    icon: Trophy, // 아이콘을 Trophy로 변경
+    icon: Trophy,
+  },
+  {
+    id: 'diet',
+    title: 'hwpx/pdf 용량 줄이기',
+    subtitle: '무거운 hwpx와 pdf 파일의 용량을 쉽게 줄여보세요.',
+    description: '높은 용량의 hwpx와 pdf 파일을 메시지로 보내거나 업무에 활용할 때 어려웠던 경험이 있으셨나요? 간단하게 파일을 업로드하고 다이어트 된 파일 용량을 확인해 보세요.',
+    catchphrase: '👉 hwpx와 pdf 용량을 쉽게 줄여주는 서비스',
+    url: 'https://hwpxdiet.vercel.app/',
+    icon: FileArchive,
   }
 ];
