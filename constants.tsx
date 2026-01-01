@@ -1,3 +1,4 @@
+
 import { 
   Layers, 
   Volume2, 
@@ -7,7 +8,9 @@ import {
   Terminal, 
   Activity,
   Trophy,
-  FileArchive // 용량 줄이기에 적합한 아이콘 추가
+  FileArchive,
+  ScanFace,
+  Navigation // 이동 및 네비게이션에 적합한 아이콘 추가
 } from 'lucide-react';
 import { ServiceItem } from './types';
 
@@ -92,5 +95,23 @@ export const SERVICES: ServiceItem[] = [
     catchphrase: '👉 hwpx와 pdf 용량을 쉽게 줄여주는 서비스',
     url: 'https://hwpxdiet.vercel.app/',
     icon: FileArchive,
+  },
+  {
+    id: 'faceblur',
+    title: '쉽고 간단하게 얼수(얼굴수정)',
+    subtitle: '학생 사진 얼굴 쉽게 가리기',
+    description: 'AI가 사진 속 학생들의 얼굴을 자동으로 감지하여 블러(Blur) 처리합니다. 업로드한 이미지는 서버로 전송되지 않으며, 오직 사용자의 기기 내에서만 안전하게 처리됩니다.',
+    catchphrase: '👉 AI 얼굴 인식을 통한 이미지 얼굴 가리기',
+    url: 'https://faceblur-xi.vercel.app/',
+    icon: ScanFace,
+  },
+  {
+    id: 'gosite',
+    title: 'GoSite(쉽게 연결해요)',
+    subtitle: '한 번의 클릭으로 원하는 URL로 쉽게 이동!',
+    description: '학생들 태블릿에 클릭 한 번으로 앱 아이콘을 추가합니다. 그 후부터는 학생들이 앱 아이콘만 클릭하면 교사가 원하는 사이트로 쉽게 이동시킬 수 있습니다. 번거로운 QR코드 인식은 그만! 클래스룸 같은 서비스가 어렵다면 사용해보세요.',
+    catchphrase: '👉 학생들을 쉽고 간단하게 원하는 사이트로 이동하는 서비스',
+    url: 'https://gosite-theta.vercel.app/',
+    icon: Navigation,
   }
 ];
