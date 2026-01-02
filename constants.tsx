@@ -1,4 +1,3 @@
-
 import { 
   Layers, 
   Volume2, 
@@ -10,7 +9,8 @@ import {
   Trophy,
   FileArchive,
   ScanFace,
-  Navigation // 이동 및 네비게이션에 적합한 아이콘 추가
+  Navigation,
+  QrCode // QR코드 스캐너에 적합한 아이콘 추가
 } from 'lucide-react';
 import { ServiceItem } from './types';
 
@@ -113,5 +113,14 @@ export const SERVICES: ServiceItem[] = [
     catchphrase: '👉 학생들을 쉽고 간단하게 원하는 사이트로 이동하는 서비스',
     url: 'https://gosite-theta.vercel.app/',
     icon: Navigation,
+  },
+  {
+    id: 'qwer',
+    title: 'QWER(PC용 QR코드 스캐너)',
+    subtitle: 'PC에서도 쉽고 간단하게 QR코드를 스캔하세요!',
+    description: '가끔씩 PC로 날아오는 QR코드를 스캔하지 못해 스마트폰으로 번거롭게 스캔하신 경험이 있으신가요? 이제 PC에서도 쉽고 간단하게 QR코드를 스캔할 수 있습니다.',
+    catchphrase: '👉 PC에서 쉽고 간단하게 QR코드 스캔 기능을 지원',
+    url: 'https://qwerscan.vercel.app/',
+    icon: QrCode,
   }
 ];
