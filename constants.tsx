@@ -10,7 +10,8 @@ import {
   FileArchive,
   ScanFace,
   Navigation,
-  QrCode // QR코드 스캐너에 적합한 아이콘 추가
+  QrCode,
+  Medal // 리그와 성취를 상징하는 아이콘 추가
 } from 'lucide-react';
 import { ServiceItem } from './types';
 
@@ -71,12 +72,12 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     id: 'pe',
-    title: '권쌤과 체육 포털',
-    subtitle: '체육 수업을 더 똑똑하고 재미있게',
-    description: '배드민턴 경기 기록 시스템, 체육관 예약 및 체크인, 표현 활동 의견 나눔 서비스까지 체육 수업을 풍부하게 만들어주는 도구들을 한 곳에 모았습니다.',
-    catchphrase: '👉 기록·운영·참여가 살아나는 체육 수업 플랫폼',
-    url: 'https://youware.app/project/9pse9k75ey?enter_from=share&screen_status=2',
-    icon: Activity,
+    title: '권쌤과 클래스 리그',
+    subtitle: '학급에서 진행하는 리그전을 스마트하게',
+    description: '학급에서 공기놀이나 스포츠스태킹, 학급별 피구, 배드민턴 경기 등 다양한 리그전을 진행하게 됩니다. 리그전 경기 결과들을 체계적으로 정리하고 통계를 자동으로 생성해주는 서비스입니다. 교사가 커스텀 할 수 있습니다.',
+    catchphrase: '👉 다양한 경기 결과를 정리해주는 서비스',
+    url: 'https://classleague.vercel.app/',
+    icon: Medal,
   },
   {
     id: 'kickball',
