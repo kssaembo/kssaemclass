@@ -11,7 +11,8 @@ import {
   ScanFace,
   Navigation,
   QrCode,
-  Medal // 리그와 성취를 상징하는 아이콘 추가
+  Medal,
+  CalendarDays // 시간표 및 일정 관리에 적합한 아이콘 추가
 } from 'lucide-react';
 import { ServiceItem } from './types';
 
@@ -123,5 +124,14 @@ export const SERVICES: ServiceItem[] = [
     catchphrase: '👉 PC에서 쉽고 간단하게 QR코드 스캔 기능을 지원',
     url: 'https://qwerscan.vercel.app/',
     icon: QrCode,
+  },
+  {
+    id: 'kidstimetable',
+    title: '키즈 타임테이블 (Kids Time Table)',
+    subtitle: '아이들의 스케쥴을 쉽고 간단하게 정리해 주세요',
+    description: '센터, 학원, 문화센터 등 아이들의 다양한 일정들을 짜고 정리하는건 생각보다 힘든 일입니다. 키즈 타임테이블을 활용해서 쉽고 직관적으로 아이들의 일정을 정리해 보세요.',
+    catchphrase: '👉 드래그 앤 드랍으로 쉽고 간단하게 일정 조율하기',
+    url: 'https://kidstimetable.vercel.app/#/login',
+    icon: CalendarDays,
   }
 ];
