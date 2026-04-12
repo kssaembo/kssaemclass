@@ -12,7 +12,8 @@ import {
   Navigation,
   QrCode,
   Medal,
-  CalendarDays // 시간표 및 일정 관리에 적합한 아이콘 추가
+  CalendarDays, // 시간표 및 일정 관리에 적합한 아이콘 추가
+  Ghost
 } from 'lucide-react';
 import { ServiceItem } from './types';
 
@@ -133,5 +134,14 @@ export const SERVICES: ServiceItem[] = [
     catchphrase: '👉 드래그 앤 드랍으로 쉽고 간단하게 일정 조율하기',
     url: 'https://kidstimetable.vercel.app/#/login',
     icon: CalendarDays,
+  },
+  {
+    id: 'zombie',
+    title: '지니어스 게임(좀비게임)',
+    subtitle: "추억의 지니어스 게임 '좀비게임'을 더 쉽게!",
+    description: "지니어스 게임 1 '좀비게임'을 지원하고 진행하기 위해 만들어진 서비스입니다. 선생님이 복잡하게 계산하실 필요 없이 이 서비스로 쉽고 간단하게 좀비게임을 해보세요.",
+    catchphrase: '👉 #3학년 과학 감염병 단원, #학급놀이',
+    url: 'https://zombiegame-cyan.vercel.app/',
+    icon: Ghost,
   }
 ];
