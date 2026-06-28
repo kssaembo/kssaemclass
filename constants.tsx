@@ -15,7 +15,9 @@ import {
   CalendarDays, // 시간표 및 일정 관리에 적합한 아이콘 추가
   Ghost,
   Briefcase,
-  Croissant
+  Croissant,
+  Scale,
+  Sprout
 } from 'lucide-react';
 import { ServiceItem } from './types';
 
@@ -53,7 +55,7 @@ export const SERVICES: ServiceItem[] = [
     subtitle: '무거운 hwpx와 pdf 파일의 용량을 쉽게 줄여보세요.',
     description: '높은 용량의 hwpx와 pdf 파일을 메시지로 보내거나 업무에 활용할 때 어려웠던 경험이 있으셨나요? 간단하게 파일을 업로드하고 다이어트 된 파일 용량을 확인해 보세요.',
     catchphrase: '👉 hwpx와 pdf 용량을 쉽게 줄여주는 서비스',
-    url: 'https://hwpxdiet.vercel.app/',
+    url: 'https://hwpx-pdf-1083949389118.asia-east1.run.app',
     icon: FileArchive,
   },
   {
@@ -109,6 +111,24 @@ export const SERVICES: ServiceItem[] = [
     catchphrase: '👉 #6학년 수학 비와 비율, #지니어스 게임, #학급 놀이',
     url: 'https://breadg.vercel.app/',
     icon: Croissant,
+  },
+  {
+    id: 'jury',
+    title: '지니어스 게임(배심원)',
+    subtitle: "지니어스한 학급 놀이 '배심원'을 해보세요!",
+    description: "지니어스 게임의 '배심원' 게임을 지원하고 진행하기 위해 만들어진 서비스입니다. 선생님이 복잡하게 계산하거나 운영하실 필요없이 이 서비스로 쉽고 간단하게 배심원 게임을 해보세요.",
+    catchphrase: '👉 #6학년 사회, #재판 배심원, #지니어스 게임, #학급 놀이',
+    url: 'https://jurygame.vercel.app/',
+    icon: Scale,
+  },
+  {
+    id: 'beans_dilemma',
+    title: '지니어스 게임(콩의 딜레마)',
+    subtitle: "지니어스한 학급 놀이 '콩의 딜레마'를 해보세요!",
+    description: "지니어스 게임의 '콩의 딜레마' 게임을 지원하고 진행하기 위해 만들어진 서비스입니다. 선생님이 복잡하게 계산하거나 운영하실 필요없이 이 서비스로 쉽고 간단하게 배심원 게임을 해보세요.",
+    catchphrase: '👉 #5학년 도덕, #공익, #사익, #지니어스 게임, #학급 놀이',
+    url: 'https://service-1083949389118.asia-east1.run.app',
+    icon: Sprout,
   },
   {
     id: 'kickball',
