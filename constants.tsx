@@ -127,7 +127,7 @@ export const SERVICES: ServiceItem[] = [
     subtitle: "지니어스한 학급 놀이 '콩의 딜레마'를 해보세요!",
     description: "지니어스 게임의 '콩의 딜레마' 게임을 지원하고 진행하기 위해 만들어진 서비스입니다. 선생님이 복잡하게 계산하거나 운영하실 필요없이 이 서비스로 쉽고 간단하게 배심원 게임을 해보세요.",
     catchphrase: '👉 #5학년 도덕, #공익, #사익, #지니어스 게임, #학급 놀이',
-    url: 'https://service-1083949389118.asia-east1.run.app',
+    url: 'https://beandilemma.vercel.app/',
     icon: Sprout,
   },
   {
